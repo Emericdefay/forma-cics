@@ -71,3 +71,17 @@ The **Physical** map is used in CICS
 7. ```CEDA DEF TRANS(<4_CHARACTERS_NAME>) PROGR(<THE_NAME_OF_YOUR_PROGRAM>) GROUP(<A_GROUP>)```
 8. ```CEDA INS TRANS(<4_CHARACTERS_NAME>) GROUP(<A_GROUP>)```
 9.  Write : ```<THE_TRANSACTION_INSTALLED>``` on the CICS home screen
+
+
+# 🚨 Erreurs
+
+Malgré le fait d'avoir défini et installé les éléments dans un groupe :
+<img src="../com/error-1.png"/>  <br>
+D'avoir le programme et la mapset (PGM01 et MS0001) dans DFH320.CICS.SDFHLOAD:
+<img src="../com/error-2.png"/>  <br>
+La transaction n'est pas reconnu :
+<img src="../com/error-3.png"/>  <br>
+Le programme n'est pas trouvé (NOT AUTHORIZED ?) : 
+<img src="../com/error-4.png"/>  <br>
+La transaction n'est pas trouvée avec ```CEMT I TRAN```
+<img src="../com/error-5.png"/>  <br>
