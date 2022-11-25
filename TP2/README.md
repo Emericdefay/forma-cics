@@ -44,6 +44,13 @@ Get the [JCL COMPILATION](compilation.jcl) and place it wherever you want.
 In the JCL file, I placed some variables that you should modify to be sure that your path is right.  
 Only the PARAMETERS must be modified, DFH320 section is about compilation specifications.
 
+**ALSO**  
+Inside this compilation script, the name that you give on LKED.SYSIN will be the name of the program loaded.   
+So here, for the futur, my program will be named ```CBLPGM```.
+
+<img src="../com/jcl-name-pgm.png"/>  <br>
+
+
 ## 06 - CICS <a name="06"></a>
 
 After that, execute the program. It could provides you 2 things :
